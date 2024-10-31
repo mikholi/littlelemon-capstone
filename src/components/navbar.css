@@ -1,0 +1,39 @@
+.Navbar {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+    background-color: white;
+}
+
+.Logo {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.NavLinks {
+    grid-column: 5 / span 6;
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.NavLinks li {
+    padding: 0 1rem;
+}
+
+.NavLinks a {
+    text-decoration: none;
+    color: #495e57;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+
+
+
